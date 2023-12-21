@@ -20,8 +20,6 @@ ul, ol {
     border: 0;
     padding: 0;
     white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
     overflow: hidden;
 }
 
@@ -94,7 +92,8 @@ text-transform: uppercase;
     cursor: pointer;
 }
 
-.one-button:hover {
+.one-button:hover,
+.one-button:focus {
     color: #404BBF;
 }
 
@@ -211,5 +210,5 @@ text-transform: uppercase;
     color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: -0.02em;
 }
