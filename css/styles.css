@@ -132,7 +132,11 @@ text-transform: uppercase;
     text-transform: capitalize;
 }
 
-.three-name {
+.three-list {
+background-color:  #FFF;
+}
+
+.three-list-name {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -140,7 +144,7 @@ text-transform: uppercase;
     letter-spacing: 0.02em;
 }
 
-.three-text {
+.three-list-text {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
