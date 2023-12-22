@@ -13,13 +13,11 @@ ul, ol {
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
+
     margin: -1px;
-    border: 0;
-    padding: 0;
     white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
     overflow: hidden;
 }
 
@@ -88,9 +86,7 @@ text-transform: uppercase;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    border-radius: 4px;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
 
@@ -147,7 +143,6 @@ background-color: #FFF;
 .three-list-text {
     color: #434455;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
